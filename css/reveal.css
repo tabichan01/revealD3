@@ -327,10 +327,10 @@ body {
     .reveal .controls[data-controls-back-arrows="faded"] .navigate-left.enabled:hover,
     .reveal .controls[data-controls-back-arrows="faded"] .navigate-up.enabled:hover {
       opacity: 1; }
-  .reveal .controls[data-controls-back-arrows="faded"] .navigate-left.enabled,
-  .reveal .controls[data-controls-back-arrows="faded"] .navigate-up.enabled {
+  .reveal .controls[data-controls-back-arrows="hidden"] .navigate-left.enabled,
+  .reveal .controls[data-controls-back-arrows="hidden"] .navigate-up.enabled {
     opacity: 0;
-    visibility: visible; }
+    visibility: hidden; }
   .reveal .controls .enabled {
     visibility: visible;
     opacity: 0.9;
